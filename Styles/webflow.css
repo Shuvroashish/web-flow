@@ -123,15 +123,17 @@ nav {
   .users {
     padding: 50px 80px;
     background-color: rgba(78, 71, 255, 0.1);
-    max-width: 60%;
-    max-height: 50%;
+    max-width: 1150px;
+    max-height: 340px;
     border-radius: 24px;
     text-align: center;
     margin-left: 150px;
+    margin-right: 150px;
     
   }
   .users h2{
     text-align: center;
+    /* border: 2px solid maroon; */
   }
 
 .stats {
@@ -148,8 +150,10 @@ nav {
   }
   .stats div h3{
     color: #4E47FF;
-    font-size: 80px;
+    font-size: 60px;
     font-weight: bold;
+    /* border: 2px solid maroon; */
+    margin-top: 80px;
   }
   
   /* Feedback */
@@ -161,15 +165,15 @@ nav {
 body {
   margin: 0;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #f7f9fc;
   color: #333;
+  background-color: white;
 }
 
 /* Testimonial section */
 .feedback {
   padding: 60px 20px;
   text-align: center;
-  background-color: #f1f5fd;
+  background-color:white;
 }
 
 .feedback h2 {
@@ -224,6 +228,8 @@ body {
   .contact {
     padding: 60px 80px;
     display: flex;
+    justify-content: space-between;
+    gap: 100px;
   }
   form {
     /* max-width: 600px; */
@@ -231,6 +237,9 @@ body {
     margin: auto;
     display: flex;
     flex-direction: column;
+  }
+  form h4{
+    text-align: left;
   }
   form input, form textarea {
     margin-bottom: 20px;
@@ -241,14 +250,18 @@ body {
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
   }
   .contact-title{
-    font-size: 60px;
-    padding-top: 30px;
+    font-weight: 160px;
+    padding-top: 150px;
+    height: 232px;
+    width: 528px;
+    
   }
   
   /* Footer */
   footer{
     align-items: center;
     text-align: center;
+    padding: 40px 20px;
   }
   footer h1{
     text-decoration: #4E47FF;
